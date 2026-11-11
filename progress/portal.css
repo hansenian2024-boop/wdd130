@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #022f40;
+    font-family: fira sans;
+}
+h1 {
+    text-align: center;
+    color: #dfdfdf;
+}
+main {
+    display: grid;
+    justify-items: center;
+    background-color: #1fb1ea;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: fira sans;
+}
+a:hover {
+    background-color: #333eee;
+    color: #fff;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #777fff;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 75px;
+}
+footer p {
+    font-size: 25px;
+    padding: 15px;
+    color: #183446;
+}
+img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+div p {
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+nav {
+    margin-left:10px;
+    margin-right: 15px;
+}

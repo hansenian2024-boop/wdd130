@@ -1,0 +1,57 @@
+/* Add your CSS here to style the photography portfolio*/
+
+/* Go here to get fonts: https://fonts.google.com/*/
+/* Select a font, and copy it's @import statement. Paste at the top of this file.*/
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Federant&display=swap');
+/* Flexbox cheat sheet: https://flexbox.malven.co/*/
+
+/* Normalizing/resetting CSS*/
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Federant";
+    text-align: center;
+}
+
+h2 {
+    font-family: "Edu QLD Hand";
+    text-align: center;
+}
+
+nav {
+    background-color: pink;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgb(85, 85, 85);
+}
+
+nav a {
+    color: ivory;
+    text-decoration: none;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 12px;
+}
+
+nav a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+img {
+    max-width: 200px;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 1400px;
+    flex-wrap: wrap;
+    margin-left: 25%;
+    margin-right: 25%;
+    gap: 10px;
+}
